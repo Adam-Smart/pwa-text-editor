@@ -2,19 +2,24 @@
   "name": "pwa-text-editor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adam-Smart/pwa-text-editor.git"
+    "start:dev": "",
+    "start": "",
+    "server": "",
+    "build": "",
+    "install": "",
+    "client": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Adam-Smart/pwa-text-editor/issues"
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
   },
-  "homepage": "https://github.com/Adam-Smart/pwa-text-editor#readme"
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
 }
